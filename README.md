@@ -1,21 +1,18 @@
-Bitext - Customer Service Tagged Evaluation Dataset for Intent Detection - Colloquial
+Bitext - Customer Service Tagged Evaluation Dataset for Intent Detection - Politeness
 =======================================================================================
 
 Overview
 --------
 
-This dataset can be used to evaluate intent recognition models on Natural Language Understanding (NLU) platforms: LUIS, Dialogflow, Lex, RASA and any other NLU platform that accepts text as input. It focuses on colloquial language, so the ratio of colloquial utterances is higher in this dataset than the one in the standard dataset.
+This dataset can be used to evaluate intent recognition models on Natural Language Understanding (NLU) platforms: LUIS, Dialogflow, Lex, RASA and any other NLU platform that accepts text as input. It focuses on colloquial language, so the ratio of colloquial utterances is higher in this dataset than the one in the standard dataset (see [Customer Service Tagged Evaluation Dataset for Intent Detection](https://github.com/bitext/customer-support-intent-detection-evaluation-dataset)).
 
-The dataset is parallel to our Training dataset (see Customer Service Tagged Training Dataset for Intent Detection). Both datasets can be used in conjunction to first train then evaluate the accuracy provided by training. The main difference between the two datasets is the number of utterances:
-  - The training dataset contains about 8,000 utterances (about 300 per intent), because most platforms limit the number of utterances that can be used for training 
-  - The evaluation dataset contains about 260,000 utterances (about 10,000 per intent), since there is no limit in the amount of evaluation data that can be used in any platform
-
-Both datasets share the rest of the specifications, so they can be used in conjunction. The evaluation dataset has the following specs, shared with the training dataset:
+Both datasets share the rest of the specifications, so they can be used interchangeably. The Colloquial Evaluation dataset has the following specs, shared with the Standard Evaluation dataset:
 
   - Customer Service domain 
   - 11 categories or intent groups
   - 27 intents assigned to one of the 11 categories
   - 270,000 utterances assigned to the 27 intents
+  - 7 entity/slot types
 
 Each utterance is tagged with entities/slots when applicable. Additionally, each utterance is enriched with tags that indicate the type of language variation that the utterance expresses. Examples include:
 
