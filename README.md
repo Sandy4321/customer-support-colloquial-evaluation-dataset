@@ -1,4 +1,4 @@
-Bitext - Customer Service Tagged Evaluation Dataset for Intent Detection - Politeness
+Bitext - Customer Service Tagged Evaluation Dataset for Intent Detection - Colloquial
 =======================================================================================
 
 Overview
